@@ -1,8 +1,8 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="spotipy-cli-client",
-    version="0.1.2",
+    name="spotify-cli-client",
+    version="0.1.0",
     packages=find_packages(),
     install_requires=["click", "spotipy", "InquirerPy"],
     entry_points={
